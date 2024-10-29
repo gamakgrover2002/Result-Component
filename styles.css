@@ -60,7 +60,6 @@ body {
 .congrats-message {
   color: white;
 }
-
 .stats-wrapper {
   flex-basis: 50%;
   padding: 20px 20px;
@@ -107,4 +106,14 @@ button {
 button:hover {
   background-color: #4532ec;
   cursor: pointer;
+}
+@media screen and (min-width: 0px) and (max-width: 800px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .score-wrapper {
+    flex-basis: 0%;
+    padding: 20px 0px;
+  }
 }
